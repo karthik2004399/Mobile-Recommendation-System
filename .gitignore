@@ -1,0 +1,29 @@
+# Python cache and env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Codex / temporary plugin caches
+.codex/
+.codex/.tmp/
+
+# Ignore user AppData paths that may appear due to symlinks
+AppData/
+
+# Logs and temp
+logs/
+*.log
